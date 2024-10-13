@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(32, 32, 32, 0.5) !important; 
+}
+
+#titleADD{
+    margin-left: 18em;
+}
+
+.formADD  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 12, 12, 0.1);
+    width: 20em;
+    height: 33em;
+    margin: 0.5em auto
+    
+}
+
+.formADD .contenedorADD{
+    padding: 0.5em;
+ 
+}
+
+.formADD input,
+.formADD button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+
+.select {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    padding: 10px; /* Espaciado interno en los campos */
+    margin: 10px 0; /* Espaciado vertical entre los campos */
+    border: 1px solid #ced4da; /* Bordes gris claro */
+    border-radius: 5px; /* Bordes redondeados en los campos */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: #6c757d;  
+}
+
+.agregar {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 100%; /* Ocupa el 100% del ancho */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.agregar:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem; /* Equivalente a 16px por defecto */
+    line-height: 1.5; /* Aumenta la legibilidad */
+    max-width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: auto; /* Permite que el cuerpo se ajuste al contenido */
+    /*background: #2080a0 !important;*/
+    background: rgba(105, 105, 105, 1) !important;
+    /*background: #ADD8E6;*/
+}
+
+.container {
+    max-width: 75em; /* Limitar el ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 0 20px; /* Espaciado horizontal */
+}
+
+  /*  background-size: cover;  Ajusta la imagen para cubrir el área */
+  /*  background-position: center;  Centra la imagen */
+ /*background-image: url('../img/barril.jpg');*/

@@ -1,0 +1,4 @@
+.table-bordered tbody td {
+    background-color: rgba(32, 32, 32, 0.5); 
+    color: rgba(255, 255, 255, 0.8);
+}
